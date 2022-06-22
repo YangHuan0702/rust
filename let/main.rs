@@ -14,8 +14,8 @@ fn main(){
 
     // println!("x :{}",x);
 
-    // let a = ();
-    // if(a == ()){
+    // let a = ();qwe
+    // if(a == ()){qw
     //     println!("a is ()");
     // }
 
