@@ -1,6 +1,7 @@
+mod order;
+pub use crate::order::service;
+
 fn main() {
-    let mut x = 6;
-    println!("x : {}",x);
-    x = 7;    
-    println!("x : {}",x);
+    let a = service::get_order(1);
+    print!("{:?}",a);
 }
