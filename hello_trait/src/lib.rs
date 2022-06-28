@@ -1,3 +1,4 @@
+use std::fmt::format;
 
 pub trait Summary {
     fn summarize(&self) -> String;
@@ -23,8 +24,8 @@ pub struct Tweet {
     pub retweet: bool,
 }
 
-impl Summary for Tweet{
+impl Summary for Tweet {
     fn summarize(&self) -> String {
-        format!("{}:{}",self.username,self.content)
+        format!("{}:{}", self.username, self.content)
     }
 }
