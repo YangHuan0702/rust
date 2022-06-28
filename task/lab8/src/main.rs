@@ -3,15 +3,38 @@ use std::collections::HashMap;
 
 
 fn main() {
-    let mut a : [i32;5] = [1,45,67,89,123];
+    let mut a = String::from("Add Sally to Engineering");
+    let mut b = String::from("Add Amir to Sales");
+
+    let mut index : u8 = 0;
+
+    let mut value = Vec::new();
+    let mut key = Vec::new();
+    for item in a.split_whitespace() {
+        if index == 1 {
+            value.push(item);
+        }else if index == 3 {
+            key.push(item);
+        }
+        index += 1;
+    }
+    index = 0;
+
+    for item in b.split_whitespace() {
+        if index == 1 {
+            value.push(item);
+        }else if index == 3 {
+            key.push(item);
+        }
+        index += 1;
+    }
+
+    let mut user_map : HashMap<_,_> = key.into_iter().zip(value.into_iter()).collect();
+
+    println!("{:?}",user_map);
 }
 
-fn order_array(a : [i32;5]){
-    
-    for item in a {
-        
-    }
-}
+
 
 fn demo1(){
     // let mut users :HashMap<&str,&Vec<&str>> = HashMap::new();
