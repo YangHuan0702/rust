@@ -1,1 +1,1 @@
-/Users/yanghuan/core/project/rust/rust/cargo_hello/target/debug/cargo_hello: /Users/yanghuan/core/project/rust/rust/cargo_hello/src/main.rs /Users/yanghuan/core/project/rust/rust/cargo_hello/src/order/mod.rs /Users/yanghuan/core/project/rust/rust/cargo_hello/src/order/service.rs
+E:\project\halosky\rust\rust\cargo_hello\target\debug\cargo_hello.exe: E:\project\halosky\rust\rust\cargo_hello\src\main.rs E:\project\halosky\rust\rust\cargo_hello\src\order\mod.rs E:\project\halosky\rust\rust\cargo_hello\src\order\service.rs
