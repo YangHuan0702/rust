@@ -26,6 +26,5 @@ fn main() {
 
 
 fn set_config(params: &Vec<String>)-> Config {
-    let a = params[1].clone();
     Config::new(params[1].clone(),params[2].clone())
 }
