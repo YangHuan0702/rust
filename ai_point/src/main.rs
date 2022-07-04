@@ -9,7 +9,7 @@ use std::rc::Rc;
 fn main() {
     // use_box();
     // use_box2();
-
+    let r = Rc::new(Vec::new());
 
     // drop trait demo
     // let c = CustomSmartPointer {
