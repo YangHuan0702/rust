@@ -21,6 +21,7 @@ fn main() {
     // };
     // println!("CustomSmartPointers created.");
 
+    let b = Some(2);
     rc_demo();
 }
 
